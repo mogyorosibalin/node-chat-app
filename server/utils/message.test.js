@@ -2,7 +2,7 @@ const expect = require('expect');
 
 const { generateMessage, generateLocationMessage } = require('./message');
 
-describe('generateMessage', () => {
+describe('FUNC | generateMessage', () => {
     it('should generate the correct message object', () => {
         // Making the variables for the test case
         const from = 'Jen';
@@ -15,7 +15,7 @@ describe('generateMessage', () => {
     });
 });
 
-describe('generateLocationMessage', () => {
+describe('FUNC | generateLocationMessage', () => {
     it('should generate correct location object', () => {
         // Making the variables for the test case
         const from = 'Deb';
